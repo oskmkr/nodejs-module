@@ -1,0 +1,11 @@
+{
+  "name": "stringUtils",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "stringUtils.js",
+  "scripts": {
+    "test": "node ./stringUtilsTest.js && node ./stringUtilsTest.js"
+  },
+  "author": "oskmkr",
+  "license": "BSD-2-Clause"
+}

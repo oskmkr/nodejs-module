@@ -3,7 +3,7 @@
  * @author oskmkr
  */
 
-var cmd = require('child_process').spawn('cmd', ['/c', 'dir\n']);
+var childProcess = require('child_process'), cmd = childProcess.spawn('cmd', ['/c', 'dir\n']);
 
 
 cmd.stdout.on('data', function(data) {

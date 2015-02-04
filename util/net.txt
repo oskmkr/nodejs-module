@@ -1,0 +1,1222 @@
+{ createServer: 
+   { [Function]
+     [length]: [33m0[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  createConnection: 
+   { [Function]
+     [length]: [33m0[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  connect: 
+   { [Function]
+     [length]: [33m0[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  _normalizeConnectArgs: 
+   { [Function: normalizeConnectArgs]
+     [length]: [33m1[39m,
+     [name]: [32m'normalizeConnectArgs'[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  Socket: 
+   { [Function: Socket]
+     [length]: [33m1[39m,
+     [name]: [32m'Socket'[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: 
+      { [constructor]: [36m[Circular][39m,
+        read: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        listen: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        setTimeout: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _onTimeout: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        setNoDelay: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        setKeepAlive: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        address: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        [readyState]: [36m[Getter][39m,
+        [bufferSize]: [36m[Getter][39m,
+        _read: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        end: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        destroySoon: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _destroy: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        destroy: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _getpeername: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        remoteAddress: [36m[Getter][39m,
+        remotePort: [36m[Getter][39m,
+        _getsockname: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        localAddress: [36m[Getter][39m,
+        localPort: [36m[Getter][39m,
+        write: 
+         { [Function]
+           [length]: [33m3[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _write: 
+         { [Function]
+           [length]: [33m3[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        bytesWritten: [36m[Getter][39m,
+        connect: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        ref: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        unref: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } } },
+     super_: 
+      { [Function: Duplex]
+        [length]: [33m1[39m,
+        [name]: [32m'Duplex'[39m,
+        [arguments]: [1mnull[22m,
+        [caller]: [1mnull[22m,
+        [prototype]: 
+         { [constructor]: [36m[Circular][39m,
+           write: 
+            { [Function]
+              [length]: [33m3[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           _write: 
+            { [Function]
+              [length]: [33m3[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           end: 
+            { [Function]
+              [length]: [33m3[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } } },
+        super_: 
+         { [Function: Readable]
+           [length]: [33m1[39m,
+           [name]: [32m'Readable'[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: 
+            { [constructor]: [36m[Circular][39m,
+              push: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              unshift: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              setEncoding: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              read: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              _read: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              pipe: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              unpipe: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              on: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              addListener: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              resume: 
+               { [Function]
+                 [length]: [33m0[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              pause: 
+               { [Function]
+                 [length]: [33m0[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              wrap: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } } },
+           ReadableState: 
+            { [Function: ReadableState]
+              [length]: [33m2[39m,
+              [name]: [32m'ReadableState'[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           super_: 
+            { [Function: Stream]
+              [length]: [33m0[39m,
+              [name]: [32m'Stream'[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: 
+               { [constructor]: [36m[Circular][39m,
+                 pipe: 
+                  { [Function]
+                    [length]: [33m2[39m,
+                    [name]: [32m''[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: { [constructor]: [36m[Circular][39m } } },
+              super_: 
+               { [Function: EventEmitter]
+                 [length]: [33m0[39m,
+                 [name]: [32m'EventEmitter'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    setMaxListeners: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    emit: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    addListener: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    on: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    once: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    removeListener: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    removeAllListeners: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    listeners: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 listenerCount: 
+                  { [Function]
+                    [length]: [33m2[39m,
+                    [name]: [32m''[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: { [constructor]: [36m[Circular][39m } } },
+              Readable: [36m[Circular][39m,
+              Writable: 
+               { [Function: Writable]
+                 [length]: [33m1[39m,
+                 [name]: [32m'Writable'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    pipe: 
+                     { [Function]
+                       [length]: [33m0[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    write: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _write: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    end: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 WritableState: 
+                  { [Function: WritableState]
+                    [length]: [33m2[39m,
+                    [name]: [32m'WritableState'[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: { [constructor]: [36m[Circular][39m } },
+                 super_: [36m[Circular][39m },
+              Duplex: [36m[Circular][39m,
+              Transform: 
+               { [Function: Transform]
+                 [length]: [33m1[39m,
+                 [name]: [32m'Transform'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    push: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _transform: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _write: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _read: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 super_: [36m[Circular][39m },
+              PassThrough: 
+               { [Function: PassThrough]
+                 [length]: [33m1[39m,
+                 [name]: [32m'PassThrough'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    _transform: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 super_: 
+                  { [Function: Transform]
+                    [length]: [33m1[39m,
+                    [name]: [32m'Transform'[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: 
+                     { [constructor]: [36m[Circular][39m,
+                       push: 
+                        { [Function]
+                          [length]: [33m2[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } },
+                       _transform: 
+                        { [Function]
+                          [length]: [33m3[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } },
+                       _write: 
+                        { [Function]
+                          [length]: [33m3[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } },
+                       _read: 
+                        { [Function]
+                          [length]: [33m1[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } } },
+                    super_: [36m[Circular][39m } },
+              Stream: [36m[Circular][39m },
+           _fromList: 
+            { [Function: fromList]
+              [length]: [33m2[39m,
+              [name]: [32m'fromList'[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } } } } },
+  Stream: 
+   { [Function: Socket]
+     [length]: [33m1[39m,
+     [name]: [32m'Socket'[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: 
+      { [constructor]: [36m[Circular][39m,
+        read: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        listen: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        setTimeout: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _onTimeout: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        setNoDelay: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        setKeepAlive: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        address: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        [readyState]: [36m[Getter][39m,
+        [bufferSize]: [36m[Getter][39m,
+        _read: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        end: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        destroySoon: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _destroy: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        destroy: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _getpeername: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        remoteAddress: [36m[Getter][39m,
+        remotePort: [36m[Getter][39m,
+        _getsockname: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        localAddress: [36m[Getter][39m,
+        localPort: [36m[Getter][39m,
+        write: 
+         { [Function]
+           [length]: [33m3[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _write: 
+         { [Function]
+           [length]: [33m3[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        bytesWritten: [36m[Getter][39m,
+        connect: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        ref: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        unref: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } } },
+     super_: 
+      { [Function: Duplex]
+        [length]: [33m1[39m,
+        [name]: [32m'Duplex'[39m,
+        [arguments]: [1mnull[22m,
+        [caller]: [1mnull[22m,
+        [prototype]: 
+         { [constructor]: [36m[Circular][39m,
+           write: 
+            { [Function]
+              [length]: [33m3[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           _write: 
+            { [Function]
+              [length]: [33m3[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           end: 
+            { [Function]
+              [length]: [33m3[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } } },
+        super_: 
+         { [Function: Readable]
+           [length]: [33m1[39m,
+           [name]: [32m'Readable'[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: 
+            { [constructor]: [36m[Circular][39m,
+              push: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              unshift: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              setEncoding: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              read: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              _read: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              pipe: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              unpipe: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              on: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              addListener: 
+               { [Function]
+                 [length]: [33m2[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              resume: 
+               { [Function]
+                 [length]: [33m0[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              pause: 
+               { [Function]
+                 [length]: [33m0[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } },
+              wrap: 
+               { [Function]
+                 [length]: [33m1[39m,
+                 [name]: [32m''[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: { [constructor]: [36m[Circular][39m } } },
+           ReadableState: 
+            { [Function: ReadableState]
+              [length]: [33m2[39m,
+              [name]: [32m'ReadableState'[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           super_: 
+            { [Function: Stream]
+              [length]: [33m0[39m,
+              [name]: [32m'Stream'[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: 
+               { [constructor]: [36m[Circular][39m,
+                 pipe: 
+                  { [Function]
+                    [length]: [33m2[39m,
+                    [name]: [32m''[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: { [constructor]: [36m[Circular][39m } } },
+              super_: 
+               { [Function: EventEmitter]
+                 [length]: [33m0[39m,
+                 [name]: [32m'EventEmitter'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    setMaxListeners: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    emit: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    addListener: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    on: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    once: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    removeListener: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    removeAllListeners: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    listeners: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 listenerCount: 
+                  { [Function]
+                    [length]: [33m2[39m,
+                    [name]: [32m''[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: { [constructor]: [36m[Circular][39m } } },
+              Readable: [36m[Circular][39m,
+              Writable: 
+               { [Function: Writable]
+                 [length]: [33m1[39m,
+                 [name]: [32m'Writable'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    pipe: 
+                     { [Function]
+                       [length]: [33m0[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    write: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _write: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    end: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 WritableState: 
+                  { [Function: WritableState]
+                    [length]: [33m2[39m,
+                    [name]: [32m'WritableState'[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: { [constructor]: [36m[Circular][39m } },
+                 super_: [36m[Circular][39m },
+              Duplex: [36m[Circular][39m,
+              Transform: 
+               { [Function: Transform]
+                 [length]: [33m1[39m,
+                 [name]: [32m'Transform'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    push: 
+                     { [Function]
+                       [length]: [33m2[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _transform: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _write: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } },
+                    _read: 
+                     { [Function]
+                       [length]: [33m1[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 super_: [36m[Circular][39m },
+              PassThrough: 
+               { [Function: PassThrough]
+                 [length]: [33m1[39m,
+                 [name]: [32m'PassThrough'[39m,
+                 [arguments]: [1mnull[22m,
+                 [caller]: [1mnull[22m,
+                 [prototype]: 
+                  { [constructor]: [36m[Circular][39m,
+                    _transform: 
+                     { [Function]
+                       [length]: [33m3[39m,
+                       [name]: [32m''[39m,
+                       [arguments]: [1mnull[22m,
+                       [caller]: [1mnull[22m,
+                       [prototype]: { [constructor]: [36m[Circular][39m } } },
+                 super_: 
+                  { [Function: Transform]
+                    [length]: [33m1[39m,
+                    [name]: [32m'Transform'[39m,
+                    [arguments]: [1mnull[22m,
+                    [caller]: [1mnull[22m,
+                    [prototype]: 
+                     { [constructor]: [36m[Circular][39m,
+                       push: 
+                        { [Function]
+                          [length]: [33m2[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } },
+                       _transform: 
+                        { [Function]
+                          [length]: [33m3[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } },
+                       _write: 
+                        { [Function]
+                          [length]: [33m3[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } },
+                       _read: 
+                        { [Function]
+                          [length]: [33m1[39m,
+                          [name]: [32m''[39m,
+                          [arguments]: [1mnull[22m,
+                          [caller]: [1mnull[22m,
+                          [prototype]: { [constructor]: [36m[Circular][39m } } },
+                    super_: [36m[Circular][39m } },
+              Stream: [36m[Circular][39m },
+           _fromList: 
+            { [Function: fromList]
+              [length]: [33m2[39m,
+              [name]: [32m'fromList'[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } } } } },
+  Server: 
+   { [Function: Server]
+     [length]: [33m0[39m,
+     [name]: [32m'Server'[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: 
+      { [constructor]: [36m[Circular][39m,
+        _listen2: 
+         { [Function]
+           [length]: [33m5[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        listen: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        address: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        getConnections: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        close: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _emitCloseIfDrained: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        listenFD: 
+         { [Function: deprecated]
+           [length]: [33m0[39m,
+           [name]: [32m'deprecated'[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        _setupSlave: 
+         { [Function]
+           [length]: [33m1[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        ref: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } },
+        unref: 
+         { [Function]
+           [length]: [33m0[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } } },
+     super_: 
+      { [Function: EventEmitter]
+        [length]: [33m0[39m,
+        [name]: [32m'EventEmitter'[39m,
+        [arguments]: [1mnull[22m,
+        [caller]: [1mnull[22m,
+        [prototype]: 
+         { [constructor]: [36m[Circular][39m,
+           setMaxListeners: 
+            { [Function]
+              [length]: [33m1[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           emit: 
+            { [Function]
+              [length]: [33m1[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           addListener: 
+            { [Function]
+              [length]: [33m2[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           on: 
+            { [Function]
+              [length]: [33m2[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           once: 
+            { [Function]
+              [length]: [33m2[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           removeListener: 
+            { [Function]
+              [length]: [33m2[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           removeAllListeners: 
+            { [Function]
+              [length]: [33m1[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } },
+           listeners: 
+            { [Function]
+              [length]: [33m1[39m,
+              [name]: [32m''[39m,
+              [arguments]: [1mnull[22m,
+              [caller]: [1mnull[22m,
+              [prototype]: { [constructor]: [36m[Circular][39m } } },
+        listenerCount: 
+         { [Function]
+           [length]: [33m2[39m,
+           [name]: [32m''[39m,
+           [arguments]: [1mnull[22m,
+           [caller]: [1mnull[22m,
+           [prototype]: { [constructor]: [36m[Circular][39m } } } },
+  _createServerHandle: 
+   { [Function]
+     [length]: [33m4[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  isIP: 
+   { [Function]
+     [length]: [33m0[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  isIPv4: 
+   { [Function]
+     [length]: [33m1[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  isIPv6: 
+   { [Function]
+     [length]: [33m1[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } },
+  _setSimultaneousAccepts: 
+   { [Function]
+     [length]: [33m1[39m,
+     [name]: [32m''[39m,
+     [arguments]: [1mnull[22m,
+     [caller]: [1mnull[22m,
+     [prototype]: { [constructor]: [36m[Circular][39m } } }
