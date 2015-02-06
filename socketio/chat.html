@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>chat home</title>
+</head>
+<body>
+chat home
+<script src="socket.io.js"></script>
+<script>
+var socket = io.connect('http://localhost:3000');
+
+socket.on('connect', function() {
+    console.log('connected...');
+});
+
+socket.emit('sendMsg', 'hello!!!');
+
+</script>
+</body>
+</html>

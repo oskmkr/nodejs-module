@@ -2,6 +2,7 @@
  * 
  * @author oskmkr@gmail.com
  */
+var fs = require('fs');
 var server = require('http').createServer();
 var io = require('socket.io')(server);
 
@@ -13,6 +14,10 @@ io.on('connection', function(socket) {
 
     socket.on('event', function(data) {
 	console.log('#event ' + data);
+    });
+    
+    socket.on('sendMsg', function(data) {
+	console.log('#sendMsg' + data);
     });
 
     socket.on('disconnect', function() {
