@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes');
 var users = require('./routes/user');
+var map = require('./maproutecontroller.js');
 
 var app = express();
 
@@ -26,6 +27,13 @@ app.use(express.methodOverride());
 
 app.get('/', routes.index);
 app.get('/users', users.list);
+
+var prefixes = ['keywords'];
+
+prefixes.forEach(function(prefix) {
+    map.mapRoute(app, prefix);    
+});
+
 app.get('/content/*', function(req, res) {
     res.send(req.params);
 });
