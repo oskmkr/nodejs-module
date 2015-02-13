@@ -13,13 +13,13 @@ exports.index = function(req, res) {
 
 exports.create = function(req, res) {
     var idx = keywords.length + 1, name = req.body.name;
-    
+    console.log(req.body);
     keywords.push({
 	id : idx,
 	name : name
     });
     
-    res.send('create keyword..' + name);    
+    res.send('create keyword..' + name);
 };
 
 exports.new = function(req, res) {
@@ -56,7 +56,29 @@ exports.edit = function(req, res) {
 };
 
 exports.update = function(req, res) {
-    res.send('update keyword');  
+    res.send('update keyword');
+    
+    var id = req.params.id;
+    var name = req.body.name;
+    console.log('body.name' + name);
+    var wantKeyword;
+    
+    if(id) {
+	id = parseInt(id, 10);
+    }
+    
+    keywords.forEach(function(keyword) {
+	if(id === keyword.id) {
+	    keyword.name = name; 
+	}
+    });
+     
+    
+    if(!wantKeyword) {
+	res.send('not found keyword -- id : ' + id);
+    }
+    
+    res.send(wantKeyword);
 };
 
 exports.remove = function(req, res) {
