@@ -28,7 +28,4 @@ exports.mapRoute = function(app, prefix) {
     
     // 제거
     app.del(prefix + '/:id', prefixObj.remove);
-    
-    
-    
 };
