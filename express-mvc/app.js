@@ -26,13 +26,14 @@ app.use(app.router);
 app.use(express.methodOverride());
 
 app.get('/', routes.index);
-app.get('/users', users.list);
+//app.get('/users', users.list);
 
-var prefixes = ['keywords'];
+var prefixes = ['keywords', 'users'];
 
 prefixes.forEach(function(prefix) {
     map.mapRoute(app, prefix);    
 });
+
 
 app.get('/content/*', function(req, res) {
     res.send(req.params);
