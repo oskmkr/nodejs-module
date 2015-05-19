@@ -1,11 +1,11 @@
 /**
- * 
+ *
  * @author oskmkr@gmail.com
  */
 
 /**
  * isEmpty('abc') // false isEmpty('') // true isEmpty(' ') // false
- * 
+ *
  * @return
  */
 var isEmpty = function(str) {
@@ -22,7 +22,7 @@ var isEmpty = function(str) {
 
 /**
  * isBlank('abc') // false isBlank('') // true isBlank(' ') // true
- * 
+ *
  * @return
  */
 var isBlank = function(str) {
