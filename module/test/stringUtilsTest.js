@@ -44,4 +44,20 @@ describe('StringUtils', function() {
       })
   })
 
+  before('before', function() {
+    console.log('before');
+  })
+
+  beforeEach(function() {
+    console.log('beforeEach');
+  })
+
+  after(function() {
+    console.log('after');
+  })
+
+  afterEach(function() {
+    console.log('afterEach');
+  })
+
 })
