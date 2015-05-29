@@ -2,8 +2,16 @@
  * @see http://mochajs.org
  * @author oskmkr@gmail.com
  */
-var assert = require('assert');
-var stringUtils = require('../stringUtils.js');
+var assert = require('assert'),
+    stringUtils = require('../stringUtils.js'),
+    fs = require('fs');
+
+var asyncFunc = function(sCallback) {
+
+  setTimeout(function() {
+    sCallback.call();
+  }, 5000)
+}
 
 describe('Array', function() {
   describe('#indexOf()', function() {
@@ -13,6 +21,21 @@ describe('Array', function() {
         assert.equal(-1, [1, 2, 3].indexOf(5));
         assert.equal(-1, [1, 2, 3].indexOf(0));
     })
+  })
+})
+
+describe('Async', function() {
+  it('asyncFunc', function() {
+
+      asyncFunc(function() {
+        console.log('hi');
+        done();
+      });
+
+      fs.readFile('ee.txt', function(err, data) {
+          done();
+      })
+
   })
 })
 
@@ -45,19 +68,19 @@ describe('StringUtils', function() {
   })
 
   before('before', function() {
-    console.log('before');
+    //console.log('before');
   })
 
   beforeEach(function() {
-    console.log('beforeEach');
+    //console.log('beforeEach');
   })
 
   after(function() {
-    console.log('after');
+    //console.log('after');
   })
 
   afterEach(function() {
-    console.log('afterEach');
+    //console.log('afterEach');
   })
 
 })
