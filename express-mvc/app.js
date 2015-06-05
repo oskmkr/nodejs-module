@@ -28,7 +28,10 @@ app.use(express.methodOverride());
 app.get('/', routes.index);
 //app.get('/users', users.list);
 
-var prefixes = ['keywords', 'users'];
+console.log('__dirname : ' + __dirname);
+console.log('path : ' + path.join(__dirname, 'public'));
+
+var prefixes = ['keywords', 'users', 'stripe'];
 
 prefixes.forEach(function(prefix) {
     map.mapRoute(app, prefix);    
