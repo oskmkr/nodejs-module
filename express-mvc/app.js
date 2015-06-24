@@ -31,7 +31,7 @@ app.get('/', routes.index);
 console.log('__dirname : ' + __dirname);
 console.log('path : ' + path.join(__dirname, 'public'));
 
-var prefixes = ['keywords', 'users', 'stripe'];
+var prefixes = ['keywords', 'users', 'stripe', 'amazon'];
 
 prefixes.forEach(function(prefix) {
     map.mapRoute(app, prefix);    
