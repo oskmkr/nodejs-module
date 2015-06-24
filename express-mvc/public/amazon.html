@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Javascript Design Patterns</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/css/article.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">oskmkr</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="blog-header">
+			<h1 class="blog-title">&nbsp;</h1>
+		</div>
+		<div class="blog-header">
+			<h1 class="blog-title">amazon login & payment test</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8 blog-main">
+
+				<div class="blog-post">
+
+					<!-- document : https://payments.amazon.com/documentation/express/201737770#201737510 -->
+					<!-- include order address -->
+					<p>None, include order address</p>
+					<script async
+						src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
+					<div data-ap-widget-type="expressPaymentButton"
+						data-ap-signature="U5uDW97gA7eB0CEUKR9dOjUcQwrjEttD4CBIuLR54Dg%3D"
+						data-ap-seller-id="A2342FFRLJTZA9"
+						data-ap-access-key="AKIAJLD7E5A3JP7DMLRA"
+						data-ap-lwa-client-id="amzn1.application-oa2-client.6a3dcf1d7f674dcb8c96f4db62c96209"
+						data-ap-return-url="http://localhost:3000/amazon"
+						data-ap-currency-code="USD" data-ap-amount="10" data-ap-note=""
+						data-ap-shipping-address-required="true"
+						data-ap-payment-action="None"></div>
+
+					<!-- button generator integration -->
+
+					<p>None</p>
+
+					<script async
+						src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
+					<div data-ap-widget-type="expressPaymentButton"
+						data-ap-signature="xiBeX0zTPIUL8%2BWvKhheMlGmwD45zaBPoZchs5Cx35o%3D"
+						data-ap-seller-id="A2342FFRLJTZA9"
+						data-ap-access-key="AKIAJLD7E5A3JP7DMLRA"
+						data-ap-lwa-client-id="amzn1.application-oa2-client.6a3dcf1d7f674dcb8c96f4db62c96209"
+						data-ap-return-url="http://localhost:3000/amazon"
+						data-ap-currency-code="USD" data-ap-amount="10" data-ap-note=""
+						data-ap-shipping-address-required="false"
+						data-ap-payment-action="None"></div>
+
+					<p>Authorize</p>
+
+					<script async
+						src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
+					<div data-ap-widget-type="expressPaymentButton"
+						data-ap-signature="RNkT8rJpFkjK8C8iRvV7oj0IzEw2zQM5oWCOsm8QqRg%3D"
+						data-ap-seller-id="A2342FFRLJTZA9"
+						data-ap-access-key="AKIAJLD7E5A3JP7DMLRA"
+						data-ap-lwa-client-id="amzn1.application-oa2-client.6a3dcf1d7f674dcb8c96f4db62c96209"
+						data-ap-return-url="http://localhost:3000/amazon/"
+						data-ap-currency-code="USD" data-ap-amount="10" data-ap-note=""
+						data-ap-shipping-address-required="false"
+						data-ap-payment-action="Authorize"></div>
+
+					<p>AuthorizeAndCapture</p>
+
+					<script async
+						src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
+					<div data-ap-widget-type="expressPaymentButton"
+						data-ap-signature="ao8B1x3OMpsQMfO5mUe8GTGzQIiTPWd8WiCNTVznKWU%3D"
+						data-ap-seller-id="A2342FFRLJTZA9"
+						data-ap-access-key="AKIAJLD7E5A3JP7DMLRA"
+						data-ap-lwa-client-id="amzn1.application-oa2-client.6a3dcf1d7f674dcb8c96f4db62c96209"
+						data-ap-return-url="http://localhost:3000/amazon/"
+						data-ap-currency-code="USD" data-ap-amount="10" data-ap-note=""
+						data-ap-shipping-address-required="false"
+						data-ap-payment-action="AuthorizeAndCapture"></div>
+
+					<script async
+						src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
+					<div data-ap-widget-type="expressPaymentButton"
+						data-ap-signature="Ai9fdyatEi2%2BpyMDKc9LbluQTJID7WJrthUHj8WNmro%3D"
+						data-ap-seller-id="A2342FFRLJTZA9"
+						data-ap-access-key="AKIAJLD7E5A3JP7DMLRA"
+						data-ap-lwa-client-id="amzn1.application-oa2-client.6a3dcf1d7f674dcb8c96f4db62c96209"
+						data-ap-return-url="http://localhost:3000/amazon/"
+						data-ap-currency-code="USD" data-ap-amount="1012" data-ap-note=""
+						data-ap-shipping-address-required="false"
+						data-ap-payment-action="None"></div>
+
+
+				</div>
+				<!-- /.blog-post -->
+			</div>
+			<!-- /.blog-main -->
+		</div>
+
+
+	</div>
+	<!-- /.container -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</script>
+</body>
+</html>
+
