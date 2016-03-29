@@ -1,14 +1,11 @@
 /**
  * 
  */
-var keywords = [{
-	id : 1,
-	name : 'oskmkr'
-}];
+var keywordBO = require('./KeywordBO');
 
 exports.index = function(req, res) {
     // res.send('show keyword list');
-    res.send(keywords);
+    res.send(keywordBO.read());
 };
 
 exports.create = function(req, res) {
